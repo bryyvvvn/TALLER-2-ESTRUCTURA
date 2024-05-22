@@ -1,0 +1,1 @@
+logic->guardarCambiosClientes(colaPreferencial,colaNormal);

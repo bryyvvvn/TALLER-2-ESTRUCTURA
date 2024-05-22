@@ -1,0 +1,74 @@
+Medicina,Analgesicos,7.99,345678
+Medicina,Analgesicos,6.5,456789
+Medicina,Antisepticos,6.99,154671
+Medicina,Antisepticos,9.99,678901
+Medicina,Antisepticos,5.5,789012
+Medicina,Antibioticos,8.49,145345
+Medicina,Antibioticos,12.99,901234
+Medicina,Antibioticos,8.5,123456
+Medicina,Antipireticos,5.49,243242
+Medicina,Antipireticos,5.99,345678
+Medicina,Antipireticos,4.5,456789
+Medicina,Antihistaminicos,9.99,345433
+Medicina,Antihistaminicos,8.99,678901
+Medicina,Antihistaminicos,6.5,789012
+Dermatologico,Cremas Hidratantes,8.99,463456
+Dermatologico,Cremas Hidratantes,6.5,456789
+Dermatologico,Cremas Hidratantes,8.75,567890
+Dermatologico,Protectores Solares,9.99,678901
+Dermatologico,Protectores Solares,5.5,789012
+Dermatologico,Protectores Solares,7.75,890123
+Dermatologico,Tratamientos Antiarrugas,12.99,901234
+Dermatologico,Tratamientos Antiarrugas,8.5,123456
+Dermatologico,Tratamientos Antiarrugas,10.75,234567
+Dermatologico,Limpiadores Faciales,5.99,345678
+Dermatologico,Limpiadores Faciales,4.5,456789
+Dermatologico,Limpiadores Faciales,6.75,567890
+Dermatologico,Serum,8.99,678901
+Dermatologico,Serum,6.5,789012
+Dermatologico,Serum,7.75,890123
+Higiene,Cuidado Dental,5.99,432432
+Higiene,Cuidado Dental,6.5,456789
+Higiene,Cuidado Dental,7.75,567890
+Higiene,Cuidado Corporal,8.99,678901
+Higiene,Cuidado Corporal,5.5,789012
+Higiene,Cuidado Corporal,7.75,890123
+Higiene,Cuidado del Cabello,6.99,901234
+Higiene,Cuidado del Cabello,8.5,123456
+Higiene,Cuidado del Cabello,10.75,234567
+Higiene,Cuidado Intimo,7.99,345678
+Higiene,Cuidado Intimo,4.5,456789
+Higiene,Cuidado Intimo,6.75,567890
+Higiene,Desodorantes,8.99,678901
+Higiene,Desodorantes,6.5,789012
+Higiene,Desodorantes,7.75,890123
+Salud Mental,Antidepresivos,12.99,432432
+Salud Mental,Antidepresivos,10.5,456789
+Salud Mental,Antidepresivos,11.75,567890
+Salud Mental,Ansioliticos,9.99,678901
+Salud Mental,Ansioliticos,7.5,789012
+Salud Mental,Ansioliticos,8.75,890123
+Salud Mental,Estabilizadores del Animo,11.99,901234
+Salud Mental,Estabilizadores del Animo,9.5,123456
+Salud Mental,Estabilizadores del Animo,10.75,234567
+Salud Mental,Tranquilizantes,8.99,345678
+Salud Mental,Tranquilizantes,6.5,456789
+Salud Mental,Tranquilizantes,7.75,567890
+Salud Mental,Suplementos para el Cerebro,13.99,678901
+Salud Mental,Suplementos para el Cerebro,11.5,789012
+Salud Mental,Suplementos para el Cerebro,12.75,890123
+Suplementos,Vitaminas,9.99,432432
+Suplementos,Vitaminas,8.5,456789
+Suplementos,Vitaminas,10.75,567890
+Suplementos,Minerales,7.99,678901
+Suplementos,Minerales,6.5,789012
+Suplementos,Minerales,8.75,890123
+Suplementos,Acidos Grasos Omega-3,11.99,901234
+Suplementos,Acidos Grasos Omega-3,10.5,123456
+Suplementos,Acidos Grasos Omega-3,12.75,234567
+Suplementos,Proteinas,8.99,345678
+Suplementos,Proteinas,7.5,456789
+Suplementos,Proteinas,9.75,567890
+Suplementos,Creatina,12.99,678901
+Suplementos,Creatina,11.5,789012
+Suplementos,Creatina,13.75,890123
