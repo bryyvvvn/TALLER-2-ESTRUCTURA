@@ -1,5 +1,5 @@
 //Clase producto con sus atributos y métodos:
-#include "Include/Producto.h"
+#include "../Include/Producto.h"
 using namespace std; 
 
 Producto:: Producto(string _categoria, string _subcategoria, double _precio, int _id)

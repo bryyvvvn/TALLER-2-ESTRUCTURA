@@ -1,6 +1,6 @@
 //Clase cliente con sus atributos y métodos:
 #include <iostream>
-#include "Include/Cliente.h"
+#include "../Include/Cliente.h"
 
 using namespace std;
 

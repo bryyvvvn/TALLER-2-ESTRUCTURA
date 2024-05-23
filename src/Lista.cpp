@@ -1,5 +1,5 @@
 //Creación de los metodos para la utilización de listas enlazadas:
-#include "Include/Lista.h"
+#include "../Include/Lista.h"
 using namespace std;
 
 Lista::Nodo::Nodo(Producto producto)

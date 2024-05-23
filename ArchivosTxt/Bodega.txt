@@ -1,4 +1,3 @@
-Medicina,Analgesicos,7.99,345678
 Medicina,Analgesicos,6.5,456789
 Medicina,Antisepticos,6.99,154671
 Medicina,Antisepticos,9.99,678901

@@ -3,9 +3,9 @@
 #include <string>
 #include <queue>
 #include <queue>
-#include "Cliente.h"
-#include "Producto.h"
-#include "Lista.h"
+#include "../Include/Cliente.h"
+#include "../Include/Producto.h"
+#include "../Include/Lista.h"
 
 #include <sstream>
 #include <fstream>
