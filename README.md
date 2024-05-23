@@ -1,4 +1,5 @@
 DATOS: 
+
 Nombre: Bryan Alejandro Carvajal Castillo // RUT: 21.177.361-8 // Correo: bryan.carvajal@alumnos.ucn.cl
        
 Nombre: Matias Joaquín Villalobos Callejas // RUT: 21.546.041-K // Correo: matias.villalobos01@alumnos.ucn.cl
