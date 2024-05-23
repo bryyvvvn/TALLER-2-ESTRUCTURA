@@ -4,10 +4,12 @@ Nombre: Bryan Alejandro Carvajal Castillo // RUT: 21.177.361-8 // Correo: bryan.
        
 Nombre: Matias Joaquín Villalobos Callejas // RUT: 21.546.041-K // Correo: matias.villalobos01@alumnos.ucn.cl
        
-Para poder compilar el taller debemos hacerlo de forma manual, poniendo el siguiente código de compilación en la terminal
+Para poder compilar el taller debemos hacerlo de forma manual, poniendo el siguiente código de compilación en la terminal.
+
 Código compilación: g++ src/*.cpp -o Taller2
 
 Mientras que para poder ejecutar el código debemos implementar el siguiente comando en la terminal.
+
 Código ejecución: ./Taller 2
 
 Si es la primera vez que se ejecuta el código, se crea un archivo "Clientes.txt" que servirá para guardar la sesión. De esta manera, al finalizar y reiniciar el código, se podrá continuar atendiendo a los clientes que estaban en la cola.
