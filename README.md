@@ -12,7 +12,7 @@ Código compilación: g++ src/*.cpp -o Taller2
 
 Mientras que para poder ejecutar el código debemos implementar el siguiente comando en la terminal.
 
-Código ejecución: ./Taller 2
+Código ejecución: ./Taller2
 
 ----------------------------------------------------------------------------------------------------
 
