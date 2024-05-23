@@ -2,124 +2,15 @@
 #include <iostream>
 #include <string>
 #include <queue>
+#include <queue>
+#include "Cliente.h"
+#include "Producto.h"
+#include "Lista.h"
 
 #include <sstream>
 #include <fstream>
+
 using namespace std;
-
-//Clase cliente con sus atributos y métodos:
-class Cliente
-{
-private:
-    string tipoCliente;
-    int numero;
-public:
-    Cliente(string _tipoCliente,int _numero): tipoCliente(_tipoCliente),numero(_numero){}
-    string getTipoCliente() const {return tipoCliente;}
-    int getNumero() const {return numero;}
-};
-
-//Clase producto con sus atributos y métodos:
-class Producto 
-{
-    private:
-    string categoria;
-    string subcategoria;
-    double precio;
-    int id;
-    
-    public:
-        Producto(string _categoria, string _subcategoria, double _precio, int _id):
-        categoria(_categoria), subcategoria(_subcategoria), precio(_precio), id(_id){};
-
-        string getCategoria() const { return categoria; }
-        string getSubcategoria() const { return subcategoria; }
-        double getPrecio() const { return precio; }
-        int getId() const { return id; }
-    
-};
-//Creación de los metodos para la utilización de listas enlazadas:
-class Lista
-{
-public:
-    class Nodo
-    {
-    public:
-        Producto producto;
-        Nodo *siguiente;
-        Nodo(Producto producto)
-            : producto(producto), siguiente(nullptr) {}
-    };
-
-    Nodo *cabeza;
-
-    Lista() : cabeza(nullptr) {}
-
-    void agregar(Producto producto)
-    {
-        if (this->cabeza == nullptr)
-        {
-            this->cabeza = new Nodo(producto);
-        }
-        else
-        {
-            Nodo *temp = cabeza;
-            while (temp->siguiente != nullptr)
-            {
-                temp = temp->siguiente;
-            }
-            temp->siguiente = new Nodo(producto);
-        }
-    }
-    //Se imprimen los datos de la lista, en este caso la boleta:
-    void imprimirBoleta()
-    {
-        cout <<" " <<"\n----------BOLETA-------------: " << endl;
-        int i=1;
-        Nodo *temp = cabeza;
-        while (temp != nullptr)
-        {
-            cout << i<<". " << "Categoria: "<<temp->producto.getCategoria() <<" Subcategoria: "<<temp->producto.getSubcategoria()<<" Precio Unitario: "<<temp->producto.getPrecio()<<" ID: "<<temp->producto.getId()<< endl;
-            temp = temp->siguiente;
-            i++;
-        }
-    }
-
-    void eliminar(int id) {
-        if (cabeza == nullptr) {
-            return;
-        }
-
-        if (cabeza->producto.getId() == id) {
-            Nodo *temp = cabeza;
-            cabeza = cabeza->siguiente; 
-            delete temp;
-            return;
-        }
-
-        Nodo *temp = cabeza;
-        while (temp->siguiente != nullptr) {
-            if (temp->siguiente->producto.getId() == id) {
-                Nodo *nodoAEliminar = temp->siguiente;
-                temp->siguiente = temp->siguiente->siguiente; 
-                delete nodoAEliminar; 
-                return;
-            }
-            temp = temp->siguiente;
-        }
-    }
-    ~Lista()
-    {
-        Nodo *temp = cabeza;
-        while (temp != nullptr)
-        {
-            Nodo *next = temp->siguiente;
-            delete temp;
-            temp = next;
-        }
-    }
-};
-
 
 class Logica
 {

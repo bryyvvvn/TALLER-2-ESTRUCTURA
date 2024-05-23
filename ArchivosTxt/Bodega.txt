@@ -18,7 +18,6 @@ Dermatologico,Protectores Solares,9.99,678901
 Dermatologico,Protectores Solares,5.5,789012
 Dermatologico,Protectores Solares,7.75,890123
 Dermatologico,Tratamientos Antiarrugas,12.99,901234
-Dermatologico,Tratamientos Antiarrugas,10.75,234567
 Dermatologico,Limpiadores Faciales,5.99,345678
 Dermatologico,Limpiadores Faciales,4.5,456789
 Dermatologico,Limpiadores Faciales,6.75,567890
