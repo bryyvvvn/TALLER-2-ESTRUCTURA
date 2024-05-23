@@ -128,8 +128,8 @@ public:
      //Crea los productos al iniciar el programa con el archivo Bodega.txt y devuelve el ultimo numero de cliente de la sesion anterior(en caso de que existe sesion anterior):
     int creacionObjetosInicio(Lista *bodega, vector<string> &categorias,queue<Cliente>& colaPreferencial, queue<Cliente>& colaNormal){
       
-        ifstream archivo("Bodega.txt");
-        ifstream archivoClientes("Clientes.txt");
+        ifstream archivo("ArchivosTxt/Bodega.txt");
+        ifstream archivoClientes("ArchivosTxt/Clientes.txt");
         string linea;
         int ultimoNumero=0;
     
@@ -176,7 +176,7 @@ public:
             }
             archivoClientes.close();
         } else {
-            ofstream archivo("Clientes.txt");
+            ofstream archivo("ArchivosTxt/Clientes.txt");
             cout<<"Se creo un archivo Clientes.txt"<<endl;
         }
 
@@ -305,7 +305,7 @@ queue<Cliente> prioridadClientesPreferencial(queue<Cliente> preferencial){
     }
     
     void guardarCambiosBodega(const Lista *bodega) {
-    ofstream archivo("Bodega.txt");
+    ofstream archivo("ArchivosTxt/Bodega.txt");
 
     if (archivo.is_open()) {
         Lista::Nodo *temp = bodega->cabeza;
@@ -324,7 +324,7 @@ queue<Cliente> prioridadClientesPreferencial(queue<Cliente> preferencial){
 }
 
     void guardarCambiosClientes(queue<Cliente>& colaPreferencial, queue<Cliente>& colaNormal) {
-        ofstream archivo("Clientes.txt");
+        ofstream archivo("ArchivosTxt/Clientes.txt");
         if(archivo.is_open()){
             while(!colaNormal.empty()){
                 archivo<<colaNormal.front().getNumero()<< ","<<colaNormal.front().getTipoCliente()<<"\n";

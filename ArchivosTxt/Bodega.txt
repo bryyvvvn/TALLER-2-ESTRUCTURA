@@ -5,7 +5,6 @@ Medicina,Antisepticos,9.99,678901
 Medicina,Antisepticos,5.5,789012
 Medicina,Antibioticos,8.49,145345
 Medicina,Antibioticos,12.99,901234
-Medicina,Antibioticos,8.5,123456
 Medicina,Antipireticos,5.49,243242
 Medicina,Antipireticos,5.99,345678
 Medicina,Antipireticos,4.5,456789
@@ -19,7 +18,6 @@ Dermatologico,Protectores Solares,9.99,678901
 Dermatologico,Protectores Solares,5.5,789012
 Dermatologico,Protectores Solares,7.75,890123
 Dermatologico,Tratamientos Antiarrugas,12.99,901234
-Dermatologico,Tratamientos Antiarrugas,8.5,123456
 Dermatologico,Tratamientos Antiarrugas,10.75,234567
 Dermatologico,Limpiadores Faciales,5.99,345678
 Dermatologico,Limpiadores Faciales,4.5,456789
