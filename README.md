@@ -5,8 +5,11 @@ despues iniciar nuevamente el codigo se pueda seguir atendiendo a los clientes q
 Al ejecutar por primera vez el codigo, se lee el archivo "Bodega.txt" y se crean 75 objetos de la clase producto:
 
 producto1: { Categoria:"Medicina"; subcategoria: "Analgesicos"; precio:"7.99"; id:"432432"}
+
 producto2: { Categoria:"Medicina"; subcategoria: "Analgesicos"; precio:"7.99"; id:"345678"}
+
 producto3: { Categoria:"Medicina"; subcategoria: "Analgesicos"; precio:"6.50"; id:"456789"}
+
 producto4: { Categoria:"Medicina"; subcategoria: "Antisepticos"; precio:"6.99"; id:"154671"}
 producto5: { Categoria:"Medicina"; subcategoria: "Antisepticos"; precio:"9.99"; id:"678901"}
 producto6: { Categoria:"Medicina"; subcategoria: "Antisepticos"; precio:"5.50"; id:"789012"}
